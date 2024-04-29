@@ -1,0 +1,9 @@
+{
+  "name": "swu-command-center",
+  "version": "0.0.0",
+  "description": "SWU-Command-Center",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
