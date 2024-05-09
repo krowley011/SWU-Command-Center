@@ -52,7 +52,7 @@ To use SWU Command Center:
 1. Install [Node.js](https://nodejs.org)
 2. Clone repository
 3. Open Terminal
-4. Install dependencies using `npm init` then `npm install express`.
+4. Install dependencies using `npm install express`.
 
 ## Hosting
 
