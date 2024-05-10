@@ -1,0 +1,105 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #010715;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 90px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    position: relative;
+    padding: 0 10px;
+}
+
+nav ul li a {
+    color: #fff; /* Change the color of navigation text */
+    text-decoration: none; /* Remove underline */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#dropdown-arrow {
+    width: 10px; /* Adjust the width of the dropdown arrow */
+    height: auto; /* Maintain aspect ratio */
+    filter: invert(100%);
+}
+
+#user-icon {
+    width: 20px; /* Adjust the width of the user icon */
+    height: auto; /* Maintain aspect ratio */
+    filter: invert(100%);
+    margin-left: 5px; /* Add margin to the left of the user icon */
+}
+
+#name {
+    font-size: 23px; /* Adjust the font size of the entire text */
+}
+
+.main {
+    font-size: 23px; /* Adjust the font size of "SWU" */
+}
+
+.sub {
+    font-size: 23px; /* Adjust the font size of "Command Center" */
+}
+
+footer {
+    background-color: #010715;
+    color: #fff;
+    padding: 10px 20px;
+    align-items: center;
+    text-align: left;
+    font-size: 12px;
+}
+
+.full-width {
+    width: 100%;
+    max-height: 500px;
+    display: block;
+}

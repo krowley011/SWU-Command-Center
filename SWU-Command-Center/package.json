@@ -3,7 +3,14 @@
   "version": "0.0.0",
   "description": "SWU-Command-Center",
   "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
   "author": {
     "name": ""
+  },
+  "dependencies": {
+    "nodemon": "^3.1.0"
   }
 }
