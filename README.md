@@ -45,18 +45,20 @@ The goal of the “Command Center” platform is to address the challenges faced
 
 To use SWU Command Center:
 
- - Access through your preferred browser at [https://swu-command-center.vercel.app/](https://swu-command-center.vercel.app/).
+ - SWU Command Center will be available to use through any web browser once we have a hosting website established.
 
 ## Development Setup
 
-1. Install [Node.js](https://nodejs.org)
-2. Clone repository
-3. Open Terminal
+1. Install [Node.js](https://nodejs.org).
+2. Clone repository.
+3. Open Terminal.
 4. Install dependencies using `npm install express`.
+5. After making changes, run `npm start` in Terminal.
+6. Open http://localhost:3000 to view it in your browser.
 
 ## Hosting
 
-Hosting is provided by [Vercel](https://vercel.com/).
+Hosting website has yet to be established.
 
 ## License
 
